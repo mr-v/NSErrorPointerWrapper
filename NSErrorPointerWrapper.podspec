@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   s.name         = "NSErrorPointerWrapper"
   s.version      = "0.1.0"
-  s.summary      = "Wrapper for handling iOS SDK APIs that take in error by reference. Written in Swift."
+  s.summary      = "Simplified error handling for Cocoa Touch APIs in Swift"
   s.description  = <<-DESC
 Swift wrapper functions that simplify handling of methods that take in `NSErrorPoint`. Some of the benefits:
 

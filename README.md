@@ -11,8 +11,8 @@ Some of the benefits:
 # Usage
 ```swift
 tryWithErrorPointer(castResultTo: NSDictionary.self) { NSJSONSerialization.JSONObjectWithData(data, options: nil, error: $0) }
-                .onError { _ in dispatchError() }
-                .onSuccess { jsonObject in dispatch_async(dispatch_get_main_queue()) { completionHandler(.OK(jsonObject)) } }
+                .onError { error in /* handle error */ }
+                .onSuccess { result in /* handle success */ } }
 ```
 
 For more details check [tests](https://github.com/mr-v/NSErrorPointerWrapper/blob/master/NSErrorPointerWrapperTests/NSErrorPointerWrapperTests.swift) and those resources:

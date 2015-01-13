@@ -10,6 +10,14 @@ Some of the benefits:
 
 # Usage
 ```swift
+tryWithErrorPointer { NSJSONSerialization.JSONObjectWithData(data, options: nil, error: $0) }
+                .onError { error in /* handle error */ }
+                .onSuccess { result in /* handle success */ } }
+```
+
+With casting:
+
+```swift
 tryWithErrorPointer(castResultTo: NSDictionary.self) { NSJSONSerialization.JSONObjectWithData(data, options: nil, error: $0) }
                 .onError { error in /* handle error */ }
                 .onSuccess { result in /* handle success */ } }

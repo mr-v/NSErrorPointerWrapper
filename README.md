@@ -31,7 +31,7 @@ For more details check [tests](https://github.com/mr-v/NSErrorPointerWrapper/blo
 # Installation with CocoaPods
 
 - You need to use CocoaPods version that supports Frameworks: at least 0.36.0. Currently it's a beta feature, to install it update CocoaPods: `gem install cocoapods --prerelease`.
-- In your `Podfile` setup `NSErrorPointerWrapper` pointing to its repo and tag version (need to do it this way, because currently pushing to Spec repo fails with code signing error).
+- Just add the following line to the `Podfile` and run `pod update`: 
 ```ruby
-pod 'NSErrorPointerWrapper', :git => "https://github.com/mr-v/NSErrorPointerWrapper.git", :tag => "0.1.0"
+pod 'NSErrorPointerWrapper'
 ```

@@ -25,7 +25,7 @@ tryWithErrorPointer(castResultTo: NSDictionary.self) { NSJSONSerialization.JSONO
 
 For more details check [tests](https://github.com/mr-v/NSErrorPointerWrapper/blob/master/NSErrorPointerWrapperTests/NSErrorPointerWrapperTests.swift) and those resources:
 
-- [NSErrorPointerWrapper: Simplified handling of Cocoa Touch API errors in Swift](http://mr-v.github.io/nserrorpointerwrapper-simplified-handling-of-cocoa-touch-api-errors-in-swift/),
+- [NSErrorPointerWrapper: Simplified handling of Cocoa Touch API errors in Swift](http://mr-v.github.io/nserrorpointerwrapper-simplified-handling-of-cocoa-touch-api-errors-in-swift),
 - sample app: [swift-objc.io-issue-10-core-data-network-application](https://github.com/mr-v/swift-objc.io-issue-10-core-data-network-application).
 
 # Installation with CocoaPods
